@@ -1,0 +1,48 @@
+.castList {
+  text-align: start;
+  width: 100%;
+  background-color: #fff;
+}
+
+.castItem {
+}
+
+.castName {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  padding: 0 8px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.castMemberList {
+
+}
+
+.castMemberItem {
+  display: flex;
+  width: 100%;
+  min-height: 32px;
+  align-items: stretch;
+
+  &.selected {
+    background: #eee
+  }
+}
+
+.memberNumberLabel {
+  width: 32px;
+  display: flex;
+  background: #eee;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.memberNameLabel {
+  display: flex;
+  align-items: center;
+}
